@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact & devis | Abdou-Hayi SALIOU — Parlons de votre projet</title>
+  <meta name="description" content="Demandez un devis gratuit pour votre site web. Réponse sous 24h. Site vitrine, WordPress, refonte ou développement sur mesure.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script defer src="js/script.js"></script>
+</head>
+<body class="page page-contact">
+
+  <header class="site-header">
+    <div class="container nav-inner">
+      <a href="index.html" class="brand" aria-label="Accueil">
+        <span>Abdou-Hayi</span>
+        <small>Web Designer & Developer</small>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-label="Ouvrir le menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="navbar" aria-label="Navigation principale">
+        <a href="index.html">Accueil</a>
+        <a href="portfolio.html">Réalisations</a>
+        <a href="services.html">Services</a>
+        <a href="process.html">Méthode</a>
+        <a href="about.html">À propos</a>
+        <a href="contact.html" class="nav-cta" aria-current="page">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="pg-hero">
+      <div class="pg-hero__bg" aria-hidden="true">
+        <span class="orb orb--1"></span>
+        <span class="orb orb--2"></span>
+        <span class="grid-lines"></span>
+      </div>
+      <div class="container pg-hero__inner reveal">
+        <span class="eyebrow">Contact</span>
+        <h1>Donnons vie à votre <span class="serif-accent">projet web</span></h1>
+        <p class="pg-hero__lead">
+          Un message suffit pour démarrer. Décrivez votre activité et vos objectifs —
+          je vous réponds sous 24h avec des pistes concrètes et un devis personnalisé.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="pg-contact reveal">
+        <form class="pg-contact__form" id="contactForm" aria-label="Formulaire de contact">
+          <h2>Envoyez votre demande</h2>
+          <p>Complétez le formulaire — il ouvrira votre messagerie avec le message déjà rédigé. Simple et rapide.</p>
+          <div class="form-row">
+            <label>Nom complet
+              <input type="text" name="name" placeholder="Jean Dupont" required autocomplete="name">
+            </label>
+            <label>Email
+              <input type="email" name="email" placeholder="vous@email.com" required autocomplete="email">
+            </label>
+          </div>
+          <label>Type de projet
+            <select name="projectType">
+              <option>Site vitrine professionnel</option>
+              <option>Site WordPress administrable</option>
+              <option>Refonte de site existant</option>
+              <option>Landing page orientée conversion</option>
+              <option>E-commerce / catalogue produits</option>
+              <option>Développement sur mesure (HTML/JS/PHP)</option>
+              <option>SEO local & optimisation</option>
+              <option>Maintenance & évolutions</option>
+            </select>
+          </label>
+          <label>Budget estimatif
+            <select name="budget">
+              <option>À définir ensemble</option>
+              <option>Moins de 1 000 €</option>
+              <option>1 000 € – 2 500 €</option>
+              <option>2 500 € – 5 000 €</option>
+              <option>Plus de 5 000 €</option>
+            </select>
+          </label>
+          <label>Votre message
+            <textarea name="message" rows="6" placeholder="Parlez-moi de votre activité, vos objectifs, les pages souhaitées, vos délais…" required></textarea>
+          </label>
+          <button class="btn btn--glow primary" type="submit">Envoyer ma demande</button>
+          <p style="margin-top:14px;font-size:.85rem">En cliquant, votre application mail s'ouvrira avec le message pré-rempli.</p>
+        </form>
+
+        <aside class="pg-contact__aside">
+          <h2>Contact direct</h2>
+          <p>Préférez un échange immédiat ? Choisissez le canal qui vous convient.</p>
+
+          <div class="pg-contact__channels">
+            <a href="https://wa.me/33753950719" target="_blank" rel="noopener noreferrer" class="pg-contact__channel">
+              <span>💬</span>
+              <div><strong>WhatsApp</strong><small>Réponse rapide, idéal pour un premier échange</small></div>
+            </a>
+            <a href="mailto:abdouhayisaliou@gmail.com" class="pg-contact__channel">
+              <span>✉️</span>
+              <div><strong>Email</strong><small>abdouhayisaliou@gmail.com</small></div>
+            </a>
+            <a href="tel:+33753950719" class="pg-contact__channel">
+              <span>📞</span>
+              <div><strong>Téléphone</strong><small>+33 7 53 95 07 19</small></div>
+            </a>
+            <a href="https://www.linkedin.com/in/abdou-hayi-saliou" target="_blank" rel="noopener noreferrer" class="pg-contact__channel">
+              <span>🔗</span>
+              <div><strong>LinkedIn</strong><small>Profil professionnel & messages</small></div>
+            </a>
+          </div>
+
+          <div class="pg-contact__tips">
+            <h3>Pour un devis précis, précisez :</h3>
+            <ul>
+              <li>Le nom et le secteur de votre activité</li>
+              <li>Le type de site souhaité</li>
+              <li>Les pages indispensables (accueil, services…)</li>
+              <li>1 ou 2 sites que vous admirez</li>
+              <li>Votre délai idéal de livraison</li>
+            </ul>
+          </div>
+        </aside>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>Abdou-Hayi SALIOU</h3>
+        <p>Création de sites web premium pour entreprises, associations, artisans et indépendants.</p>
+        <div class="footer-actions">
+          <a href="https://wa.me/33753950719" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+          <a href="mailto:abdouhayisaliou@gmail.com">Email</a>
+        </div>
+      </div>
+      <div>
+        <h4>Navigation</h4>
+        <a href="portfolio.html">Réalisations</a>
+        <a href="services.html">Services</a>
+        <a href="process.html">Méthode</a>
+        <a href="contact.html">Demander un devis</a>
+      </div>
+      <div>
+        <h4>Réseaux</h4>
+        <a href="https://www.linkedin.com/in/abdou-hayi-saliou" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="https://github.com/abdouhayisaliou" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="tel:+33753950719">Appeler</a>
+      </div>
+    </div>
+    <div class="container copyright">© 2026 Abdou-Hayi SALIOU — Sites web & solutions digitales</div>
+  </footer>
+
+  <a href="#" class="back-top" aria-label="Retour en haut">↑</a>
+</body>
+</html>
